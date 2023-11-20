@@ -1,9 +1,12 @@
-<?php get_header(); ?>
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<?php get_template_part( 'entry' ); ?>
-<?php if ( comments_open() && !post_password_required() ) { comments_template( '', true ); } ?>
-<?php endwhile; endif; ?>
-<footer class="footer">
-<?php get_template_part( 'nav', 'below-single' ); ?>
-</footer>
-<?php get_footer(); ?>
+<?php
+$post = $wp_query->post;
+if ( in_category('trabajos') ) {
+include(TEMPLATEPATH . '/single_trabajos.php'); } 
+elseif ( in_category('blog') ) {
+include(TEMPLATEPATH . '/single_blog.php'); }
+elseif ( in_category('descargas') ) {
+include(TEMPLATEPATH . '/single_descargas.php'); }
+else {
+include(TEMPLATEPATH . '/single_default.php');
+}
+?>
