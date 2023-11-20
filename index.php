@@ -88,6 +88,7 @@ Template Name: Inicio
                             <p>Más de 100 millones de canciones y más de 650 000 vídeos</p>
                         </div>
                     </div>
+                    <button class="boton-plan w-100">Empezar</button>
                 </div>
             </div>
             <div class="col-md-4">
