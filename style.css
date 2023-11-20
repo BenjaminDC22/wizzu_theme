@@ -74,6 +74,15 @@ body{
     margin-bottom: 20px;
 }
 
+.titulo-calidad{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.calidad p{
+    font-size: 18px;
+}
+
 .max-calidad{
     background-color: orange;
     border: none;

@@ -19,7 +19,7 @@ Template Name: Inicio
 
 <!-- CALIDAD DE SONIDO -->
 <div class="container seccion-margen">
-    <h2 class="mb-5">Un sonido enérgico para cada ocasión</h2>
+    <h2 class="titulo-calidad mb-5">Un sonido enérgico para cada ocasión</h2>
     <div class="row">
         <!-- CALIDAD MAX -->
         <div class="col-md-4">
