@@ -153,3 +153,7 @@ body{
 .palomita{
     width: 20px;
 }
+
+.detalle-plan{
+    display: flex;
+}
