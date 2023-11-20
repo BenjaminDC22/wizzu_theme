@@ -8,8 +8,12 @@ Template Name: Inicio
 
 <!-- BANNER PRINCIPAL -->
 <div class="container-fluid banner">
-    <div class="row">
-        
+    <div class="row texto-centrado">
+        <div class="col">
+            <h1>Dejate llevar por la potencia de la música</h1>
+            <h3>Disfruta de la música compartida en tiempo real.</h3>
+            <button type="button" class="btn btn-light">Iniciar sesión</button>
+        </div>
     </div>
 </div>
 

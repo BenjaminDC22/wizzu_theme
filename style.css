@@ -25,3 +25,7 @@ Version: 2023
     background-position: center;
     min-height: 80vh;
 }
+
+.texto-centrado{
+    align-items: center;
+}
