@@ -35,10 +35,12 @@ Version: 2023
     font-family: 'Gotham';
     font-size: 80px;
     font-weight: 700;
+    color: black;
 }
 
 .info-banner h3{
     font-family: 'Gotham';
     font-size: 25px;
     font-weight: 600;
+    color: black;
 }
