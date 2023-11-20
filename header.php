@@ -33,10 +33,10 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         
-        <div class="collapse navbar-collapse" id="main-menu">
+        <div class="collapse navbar-collapse" id="menu">
             <?php
             wp_nav_menu(array(
-                'theme_location' => 'main-menu',
+                'theme_location' => 'menu',
                 'container' => false,
                 'menu_class' => '',
                 'fallback_cb' => '__return_false',
