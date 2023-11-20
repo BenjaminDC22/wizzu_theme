@@ -22,7 +22,7 @@
 
 <?php $custom_logo = wp_get_attachment_image( get_theme_mod( 'custom_logo' ), 'medium' ); ?>
 
-<nav class="navbar navbar-expand-md bg-primary">
+<nav class="navbar navbar-expand-md bg-dark">
     <div class="container">
     <a href="<?php echo home_url(); ?>">
         <div class="logo">
