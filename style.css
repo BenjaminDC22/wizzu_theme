@@ -78,6 +78,11 @@ body{
     padding: 5px 15px;
 }
 
+.calidad{
+    display: flex;
+    align-items: center;
+}
+
 .alta-calidad{
     background-color: #14bc41;
     border: none;
