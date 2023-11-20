@@ -68,6 +68,11 @@ body{
     margin-bottom: 80px;
 }
 
+.calidad{
+    display: flex;
+    align-items: center;
+}
+
 .max-calidad{
     background-color: orange;
     border: none;
@@ -76,11 +81,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     padding: 5px 15px;
-}
-
-.calidad{
-    display: flex;
-    align-items: center;
+    margin-right: 10px;
 }
 
 .alta-calidad{
@@ -91,6 +92,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     padding: 5px 15px;
+    margin-right: 10px;
 }
 
 .baja-calidad{
@@ -101,4 +103,5 @@ body{
     font-size: 18px;
     font-weight: 600;
     padding: 5px 15px;
+    margin-right: 10px;
 }
