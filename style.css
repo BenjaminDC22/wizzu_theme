@@ -71,6 +71,7 @@ body{
 .calidad{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .max-calidad{
