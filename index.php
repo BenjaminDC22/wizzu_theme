@@ -122,6 +122,7 @@ Template Name: Inicio
                             <p>Reproducción on-demand</p>
                         </div>
                     </div>
+                    <button class="boton-plan w-100">Empezar</button>
                 </div>
             </div>
             <div class="col-md-4">
@@ -155,6 +156,7 @@ Template Name: Inicio
                             <p>Reproducción de música sin anuncios, sin conexión y on-demand</p>
                         </div>
                     </div>
+                    <button class="boton-plan w-100">Empezar</button>
                 </div>
             </div>
         </div>
