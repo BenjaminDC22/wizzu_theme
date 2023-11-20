@@ -33,7 +33,7 @@ Template Name: Inicio
         <!-- CALIDAD ALTA -->
         <div class="col-md-4">
             <div class="calidad">
-                <h4>ALTA</h4>
+                <button class="alta-calidad">ALTA</button>
                 <p>(Hasta 16 bit, 44,1 kHz)</p>
             </div>
             <p>Disfruta de más de 100 millones de canciones en calidad de estudio con FLAC. Gracias a su formato de código abierto, cada artista puede crear y ofrecer música de alta fidelidad de forma sencilla.</p>
@@ -42,7 +42,7 @@ Template Name: Inicio
         <!-- CALIDAD BAJA -->
         <div class="col-md-4">
             <div class="calidad">
-                <h4>BAJA</h4>
+                <button class="baja-calidad">BAJA</button>
                 <p>(Hasta 320 kbps)</p>
             </div>
             <p>Disfruta de la música que te gusta mientras viajas sin preocuparte por los datos. Algo extremadamente útil cuando tienes mala cobertura de datos, se te están acabando o te estás quedando sin espacio para más descargas.</p>
