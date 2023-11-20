@@ -65,6 +65,15 @@ Template Name: Inicio
                     <hr>
                     <div class="detalle-plan">
                         <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        <p>Escucha música sin anuncios</p>
+                    </div>
+                    <div class="detalle-plan">
+                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        <p>Reproduce tus canciones en cualquier lugar, incluso sin conexión</p>
+                    </div>
+                    <div class="detalle-plan">
+                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        <p>Más de 100 millones de canciones y más de 650 000 vídeos</p>
                     </div>
                 </div>
             </div>
