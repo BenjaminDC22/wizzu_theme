@@ -95,7 +95,7 @@ Template Name: Inicio
                 <div class="tarjeta-plan">
                     <h4>Plan duo</h4>
                     <h6>$5.800 al mes</h6>
-                    <p>2 cuenta</p>
+                    <p>2 cuentas</p>
                     <hr>
                     <div class="detalle-plan">
                         <div class="col-md-1">
@@ -113,6 +113,14 @@ Template Name: Inicio
                             <p>Reproducción de música sin anuncios, sin conexión y on-demand</p>
                         </div>
                     </div>
+                    <div class="detalle-plan">
+                        <div class="col-md-1">
+                            <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        </div>
+                        <div class="col-md-11">
+                            <p>Reproducción on-demand</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -120,7 +128,7 @@ Template Name: Inicio
                 <div class="tarjeta-plan">
                     <h4>Plan familiar</h4>
                     <h6>$7.450 al mes</h6>
-                    <p>6 cuenta</p>
+                    <p>6 cuentas</p>
                     <hr>
                     <div class="detalle-plan">
                         <div class="col-md-1">
