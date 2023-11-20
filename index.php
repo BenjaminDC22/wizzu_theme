@@ -83,6 +83,14 @@ Template Name: Inicio
                     <h6>$5.800 al mes</h6>
                     <p>2 cuenta</p>
                     <hr>
+                    <div class="detalle-plan">
+                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        <p>2 cuentas Premium para parejas que conviven</p>
+                    </div>
+                    <div class="detalle-plan">
+                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        <p>Reproducción de música sin anuncios, sin conexión y on-demand</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
