@@ -7,3 +7,7 @@ Description: Plataforma de música creada para escuchar música y crear playlist
 Version: 2023
 */
 
+h1{
+    font-family: 'Gotham';
+    font-weight: 700;
+}
