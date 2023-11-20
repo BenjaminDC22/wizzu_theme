@@ -12,7 +12,7 @@ Template Name: Inicio
         <div class="col info-banner">
             <h1 class="m-0">Dejate llevar por la <br> potencia de <br> la música</h1>
             <h3>Disfruta de la música compartida en tiempo real.</h3>
-            <button type="button" class="btn btn-light">Iniciar sesión</button>
+            <button type="button" class="btn btn-light">Escuchar ahora</button>
         </div>
     </div>
 </div>
