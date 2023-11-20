@@ -24,7 +24,7 @@ Template Name: Inicio
         <!-- CALIDAD MAX -->
         <div class="col-md-4">
             <div class="calidad">
-                <h4 class="tipo-calidad">Max</h4>
+                <button class="tipo-calidad">Max</button>
                 <p>(Hasta 24 bit, 192 kHz)</p>
             </div>
             <p>Disfruta de un audio inigualable que reproduce cada detalle con HiRes Free Lossless Audio Code (HiRes FLAC). La experiencia será mucho mejor con una conexión 5G o Wifi con conexión de hardware.</p>
