@@ -163,7 +163,8 @@ body{
     font-weight: 600;
     padding: 10px 15px;
     border: none;
-    border-radius: 8px;
-    background-color: rgb(253, 153, 170);
-    margin-top: 20px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 50px;
 }
