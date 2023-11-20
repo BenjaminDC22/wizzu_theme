@@ -71,9 +71,9 @@ body{
 .max-calidad{
     background-color: orange;
     border: none;
-    border-radius: 25px;
+    border-radius: 20px;
     color: white;
     font-size: 20px;
     font-weight: 600;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
