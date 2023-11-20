@@ -19,8 +19,9 @@ Template Name: Inicio
 
 <!-- CALIDAD DE SONIDO -->
 <div class="container seccion-margen">
-    <h2>Un sonido enérgico para cada ocasión</h2>
+    <h2 class="mb-5">Un sonido enérgico para cada ocasión</h2>
     <div class="row">
+        <!-- CALIDAD MAX -->
         <div class="col-md-4">
             <div class="calidad">
                 <h4>Max</h4>
@@ -28,6 +29,8 @@ Template Name: Inicio
             </div>
             <p>Disfruta de un audio inigualable que reproduce cada detalle con HiRes Free Lossless Audio Code (HiRes FLAC). La experiencia será mucho mejor con una conexión 5G o Wifi con conexión de hardware.</p>
         </div>
+
+        <!-- CALIDAD ALTA -->
         <div class="col-md-4">
             <div class="calidad">
                 <h4>ALTA</h4>
@@ -35,6 +38,8 @@ Template Name: Inicio
             </div>
             <p>Disfruta de más de 100 millones de canciones en calidad de estudio con FLAC. Gracias a su formato de código abierto, cada artista puede crear y ofrecer música de alta fidelidad de forma sencilla.</p>
         </div>
+
+        <!-- CALIDAD BAJA -->
         <div class="col-md-4">
             <div class="calidad">
                 <h4>BAJA</h4>
