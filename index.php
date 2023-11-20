@@ -49,8 +49,8 @@ Template Name: Inicio
 </div>
 
 <!-- PLANES -->
-<section class="seccion-planes">
-    <div class="container seccion-margen">
+<section class="seccion-planes seccion-margen">
+    <div class="container">
         <h2 class="mb-5">Elije tu plan Premium</h2>
         <h6>Escucha sin límites en cualquier dispositivo.</h6>
         <div class="row">
