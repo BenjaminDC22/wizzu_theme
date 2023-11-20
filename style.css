@@ -79,7 +79,17 @@ body{
 }
 
 .alta-calidad{
-    background-color: #07332f;
+    background-color: #21feec;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 15px;
+}
+
+.baja-calidad{
+    background-color: #393940;
     border: none;
     border-radius: 20px;
     color: white;
