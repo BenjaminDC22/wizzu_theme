@@ -73,7 +73,10 @@ Template Name: Inicio
                         
                     </div>
                     <div class="detalle-plan">
-                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        <div class="col-md-1">
+                            <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        </div>
+                        
                         <p>Reproduce tus canciones en cualquier lugar, incluso sin conexión</p>
                     </div>
                     <div class="detalle-plan">
