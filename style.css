@@ -73,18 +73,18 @@ body{
     border: none;
     border-radius: 20px;
     color: white;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     padding: 5px 15px;
 }
 
 .alta-calidad{
-    background-color: #21feec;
+    background-color: #14bc41;
     border: none;
     border-radius: 20px;
     color: white;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     padding: 5px 15px;
 }
 
@@ -93,7 +93,7 @@ body{
     border: none;
     border-radius: 20px;
     color: white;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     padding: 5px 15px;
 }
