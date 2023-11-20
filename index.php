@@ -58,6 +58,7 @@ Template Name: Inicio
 
         <div class="row">
             <div class="col-md-4">
+                <!-- Plan individual -->
                 <div class="tarjeta-plan">
                     <h4>Plan individual</h4>
                     <h6>$4.250 al mes</h6>
@@ -70,44 +71,81 @@ Template Name: Inicio
                         <div class="col-md-11">
                             <p>Escucha música sin anuncios</p>
                         </div>
-                        
                     </div>
                     <div class="detalle-plan">
                         <div class="col-md-1">
                             <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
                         </div>
-                        
-                        <p>Reproduce tus canciones en cualquier lugar, incluso sin conexión</p>
+                        <div class="col-md-11">
+                            <p>Reproduce tus canciones en cualquier lugar, incluso sin conexión</p>
+                        </div>
                     </div>
                     <div class="detalle-plan">
-                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
-                        <p>Más de 100 millones de canciones y más de 650 000 vídeos</p>
+                        <div class="col-md-1">
+                            <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        </div>
+                        <div class="col-md-11">
+                            <p>Más de 100 millones de canciones y más de 650 000 vídeos</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
+                <!-- Plan duo -->
                 <div class="tarjeta-plan">
                     <h4>Plan duo</h4>
                     <h6>$5.800 al mes</h6>
                     <p>2 cuenta</p>
                     <hr>
                     <div class="detalle-plan">
-                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
-                        <p>Dos cuentas Premium para parejas que conviven</p>
+                        <div class="col-md-1">
+                            <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        </div>
+                        <div class="col-md-11">
+                            <p>Dos cuentas Premium para parejas que conviven</p>
+                        </div>
                     </div>
                     <div class="detalle-plan">
-                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
-                        <p>Reproducción de música sin anuncios, sin conexión y on-demand</p>
+                        <div class="col-md-1">
+                            <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        </div>
+                        <div class="col-md-11">
+                            <p>Reproducción de música sin anuncios, sin conexión y on-demand</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
+                <!-- Plan familiar -->
                 <div class="tarjeta-plan">
                     <h4>Plan familiar</h4>
                     <h6>$7.450 al mes</h6>
                     <p>6 cuenta</p>
                     <hr>
-                    
+                    <div class="detalle-plan">
+                        <div class="col-md-1">
+                            <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        </div>
+                        <div class="col-md-11">
+                            <p>6 cuentas Premium para familiares que conviven</p>
+                        </div>
+                    </div>
+                    <div class="detalle-plan">
+                        <div class="col-md-1">
+                            <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        </div>
+                        <div class="col-md-11">
+                            <p>Bloquea la música explícita</p>
+                        </div>
+                    </div>
+                    <div class="detalle-plan">
+                        <div class="col-md-1">
+                            <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        </div>
+                        <div class="col-md-11">
+                            <p>Reproducción de música sin anuncios, sin conexión y on-demand</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
