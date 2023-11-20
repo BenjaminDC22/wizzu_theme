@@ -68,7 +68,11 @@ body{
     margin-bottom: 80px;
 }
 
-.tipo-calidad{
+.max-calidad{
     background-color: orange;
     border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
 }
