@@ -64,7 +64,7 @@ Template Name: Inicio
                     <p>1 cuenta</p>
                     <hr>
                     <div class="detalle-plan">
-                        <img class="w-100" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
                     </div>
                 </div>
             </div>
