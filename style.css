@@ -139,13 +139,13 @@ body{
 }
 
 .tarjeta-plan{
-    padding: 15px;
+    padding: 25px;
     border: none;
     border-radius: 20px;
     background-color: #ffffff;
 }
 
 .tarjeta-plan h4{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
