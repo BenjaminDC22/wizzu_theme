@@ -10,7 +10,7 @@ Template Name: Inicio
 <div class="container-fluid banner texto-centrado">
     <div class="row texto-centrado">
         <div class="col info-banner">
-            <h1>Dejate llevar por la <br> potencia de <br> la música</h1>
+            <h1 class="m-0">Dejate llevar por la <br> potencia de <br> la música</h1>
             <h3>Disfruta de la música compartida en tiempo real.</h3>
             <button type="button" class="btn btn-light">Iniciar sesión</button>
         </div>
