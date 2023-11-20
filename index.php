@@ -64,10 +64,10 @@ Template Name: Inicio
                     <p>1 cuenta</p>
                     <hr>
                     <div class="detalle-plan">
-                        <div class="col-md-2">
+                        <div class="col-md-1">
                             <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-md-11">
                             <p>Escucha música sin anuncios</p>
                         </div>
                         
