@@ -6,6 +6,11 @@ Template Name: Inicio
 
 <?php get_header(); ?>
 
-<h1>HOLA PERRITOS</h1>
+<!-- BANNER PRINCIPAL -->
+<div class="container-fluid">
+    <div class="row">
+        
+    </div>
+</div>
 
 <?php get_footer(); ?>

@@ -7,13 +7,24 @@ Description: Plataforma de música creada para escuchar música y crear playlist
 Version: 2023
 */
 
-h1{
-    font-family: 'Gotham';
-    font-weight: 700;
-}
 
 .logo img{
     width: 60px;
     height: 60px;
     margin-right: 30px;
+}
+
+/*<------------- PAGINA DE INICIO ------------->*/
+.banner{
+    content: '';
+    height: 80vh;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.75;
+    min-height: 80vh;
 }
