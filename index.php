@@ -7,7 +7,7 @@ Template Name: Inicio
 <?php get_header(); ?>
 
 <!-- BANNER PRINCIPAL -->
-<div class="container-fluid banner">
+<div class="container-fluid banner texto-centrado">
     <div class="row texto-centrado">
         <div class="col">
             <h1>Dejate llevar por la potencia de la música</h1>
