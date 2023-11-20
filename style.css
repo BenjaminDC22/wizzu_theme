@@ -62,3 +62,8 @@ body{
     padding: 10px 20px;
     font-size: 20px;
 }
+
+.seccion-margen{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}

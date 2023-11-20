@@ -18,7 +18,7 @@ Template Name: Inicio
 </div>
 
 <!-- CALIDAD DE SONIDO -->
-<div class="container">
+<div class="container seccion-margen">
     <h2>Un sonido enérgico para cada ocasión</h2>
     <div class="row">
         <div class="col-md-4">
