@@ -63,6 +63,9 @@ Template Name: Inicio
                     <h6>$4.250 al mes</h6>
                     <p>1 cuenta</p>
                     <hr>
+                    <div class="detalle-plan">
+                        <img class="w-100" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -79,6 +82,7 @@ Template Name: Inicio
                     <h6>$7.450 al mes</h6>
                     <p>6 cuenta</p>
                     <hr>
+                    
                 </div>
             </div>
         </div>
