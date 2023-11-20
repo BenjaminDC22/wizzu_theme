@@ -67,6 +67,11 @@ body{
     margin-bottom: 80px;
 }
 
+.seccion-padding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .calidad{
     display: flex;
     align-items: center;
