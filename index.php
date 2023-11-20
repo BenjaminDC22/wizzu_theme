@@ -49,12 +49,15 @@ Template Name: Inicio
 </div>
 
 <!-- PLANES -->
-<div class="container seccion-margen seccion-planes">
-    <h2 class="mb-5">Elije tu plan Premium</h2>
-    <h6>Escucha sin límites en cualquier dispositivo.</h6>
-    <div class="row">
-        
-    </div>
-</div>
+<section class="seccion-planes">
+    <div class="container seccion-margen">
+        <h2 class="mb-5">Elije tu plan Premium</h2>
+        <h6>Escucha sin límites en cualquier dispositivo.</h6>
+        <div class="row">
+            
+        </div>
+    </div>  
+</section>
+
 
 <?php get_footer(); ?>
