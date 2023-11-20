@@ -51,7 +51,7 @@ Template Name: Inicio
 <!-- PLANES -->
 <section class="seccion-planes">
     <div class="container seccion-padding">
-        <div class="texto-planes">
+        <div class="texto-planes mb-5">
             <h2 class="mb-2">Elije tu plan Premium</h2>
             <h6>Escucha sin límites en cualquier dispositivo.</h6>
         </div>
@@ -62,6 +62,7 @@ Template Name: Inicio
                     <h4>Plan individual</h4>
                     <h6>$4.250 al mes</h6>
                     <p>1 cuenta</p>
+                    <hr>
                 </div>
             </div>
             <div class="col-md-4">
@@ -69,6 +70,7 @@ Template Name: Inicio
                     <h4>Plan duo</h4>
                     <h6>$5.800 al mes</h6>
                     <p>2 cuenta</p>
+                    <hr>
                 </div>
             </div>
             <div class="col-md-4">
@@ -76,6 +78,7 @@ Template Name: Inicio
                     <h4>Plan familiar</h4>
                     <h6>$7.450 al mes</h6>
                     <p>6 cuenta</p>
+                    <hr>
                 </div>
             </div>
         </div>
