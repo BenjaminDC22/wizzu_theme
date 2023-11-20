@@ -27,5 +27,6 @@ Version: 2023
 }
 
 .texto-centrado{
+    display: flex;
     align-items: center;
 }
