@@ -64,8 +64,13 @@ Template Name: Inicio
                     <p>1 cuenta</p>
                     <hr>
                     <div class="detalle-plan">
-                        <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
-                        <p>Escucha música sin anuncios</p>
+                        <div class="col-md-2">
+                            <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
+                        </div>
+                        <div class="col-md-10">
+                            <p>Escucha música sin anuncios</p>
+                        </div>
+                        
                     </div>
                     <div class="detalle-plan">
                         <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
@@ -85,7 +90,7 @@ Template Name: Inicio
                     <hr>
                     <div class="detalle-plan">
                         <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
-                        <p>2 cuentas Premium para parejas que conviven</p>
+                        <p>Dos cuentas Premium para parejas que conviven</p>
                     </div>
                     <div class="detalle-plan">
                         <img class="palomita" src="<?php echo get_stylesheet_directory_uri(); ?>/img/palomita.png">
