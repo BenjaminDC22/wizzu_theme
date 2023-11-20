@@ -79,7 +79,7 @@ body{
 }
 
 .titulo-calidad{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 40px;
 }
 
@@ -130,7 +130,7 @@ body{
 
 .texto-planes h2{
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .texto-planes h6{
@@ -141,6 +141,11 @@ body{
 .tarjeta-plan{
     padding: 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #ffffff;
+}
+
+.tarjeta-plan h4{
+    font-size: 20px;
+    font-weight: 600;
 }
