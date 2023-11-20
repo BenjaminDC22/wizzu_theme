@@ -127,3 +127,13 @@ body{
 .texto-planes{
     text-align: center;
 }
+
+.texto-planes h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.texto-planes h6{
+    font-size: 20px;
+    font-weight: 400;
+}
