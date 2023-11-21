@@ -24,7 +24,7 @@
 <nav class="navbar navbar-expand-md bg-light">
     <div class="container">
     <a href="<?php echo home_url(); ?>">
-        <div class="logo">
+        <div class="logo mx-auto">
             <?php echo $custom_logo ?>
         </div>
     </a>
