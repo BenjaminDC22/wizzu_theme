@@ -11,7 +11,7 @@ Template Name: Feed
     <div class="row">
         <div class="col-md-4">
             <div class="menu-wizzu">
-                <button>
+                <button class="boton-wizzu">
                     <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/search.png">
                     Hola
                 </button>
