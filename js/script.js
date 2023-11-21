@@ -29,16 +29,17 @@ function creartarjetas() {
     const artistaTarjeta= document.createElement('h6');
     artistaTarjeta.innerHTML=posts.acf.artista;
 
-    // Audio
+    /* Audio
     const mp3 = document.createElement('audio');
     mp3.classList.add('col-md-12');
     mp3.controls=true;
     mp3.src=posts.acf.audio;
+    */
 
     tarjeta.appendChild(imagenTarjeta);
     tarjeta.appendChild(tituloTarjeta);
     tarjeta.appendChild(artistaTarjeta);
-    tarjeta.appendChild(mp3);
+    //tarjeta.appendChild(mp3);
 
     tarjetas.appendChild(tarjeta);
 
