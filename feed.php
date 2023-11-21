@@ -56,8 +56,7 @@ Template Name: Feed
         <!-- Lado derecho -->
         <div class="col-md-9">
             <div class="pantalla-wizzu">
-                <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner-feed.jpg">
-                hola
+                <h2>Bienvenido de nuevo, Benjamín</h2>
             </div>
         </div>
     </div>
