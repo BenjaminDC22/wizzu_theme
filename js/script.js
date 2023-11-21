@@ -5,7 +5,6 @@ fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_field
 .then(response => response.json())
 .then(data => {
     cancion = data.filter(posts => posts.acf.categoria === "song");
-    console.log(song);
     creartarjetas();
 })
 let tarjetas = document.getElementById('tarjetas');
@@ -14,7 +13,7 @@ function creartarjetas() {
     console.log(posts);
 
     // Tarjeta
-    const tarjeta = document.createElement('div')
+    const tarjeta = document.createElement('div');
     tarjeta.classList.add('col-md-3' , 'tarjeta-cancion');
 
     // Caratula
@@ -32,7 +31,7 @@ function creartarjetas() {
 
     // Audio
     const mp3 = document.createElement('audio');
-    mp3.classList.add('col-md-12')
+    mp3.classList.add('col-md-12');
     mp3.controls=true;
     mp3.src=posts.acf.audio;
 
