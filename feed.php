@@ -11,7 +11,7 @@ Template Name: Feed
     <div class="row">
 
         <!-- Lado izquierdo -->
-        <div class="col-md-3">
+        <div class="col-md-3 aside-menu">
             <!-- Menú principal -->
             <div class="menu-wizzu mb-3">
                 <button class="boton-wizzu w-100">
