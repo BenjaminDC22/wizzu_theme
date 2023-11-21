@@ -159,11 +159,11 @@ body{
 }
 
 .boton-plan{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     padding: 10px 15px;
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
     color: #ffffff;
     background-color: #000000;
     margin-top: 50px;
