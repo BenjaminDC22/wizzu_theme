@@ -117,11 +117,6 @@ function mi_js_personalizado(){
   wp_enqueue_script('index');
 }
 
-add_action('wp_enqueue_scripts', 'single_canciones');
 
-function single_canciones(){
-  wp_register_script('single', get_stylesheet_directory_uri().'/js/single.js', array('jquery'), '1.0.0', true);
-  wp_enqueue_script('single');
-}
 
 ?>
