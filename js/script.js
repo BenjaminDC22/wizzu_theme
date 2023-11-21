@@ -20,7 +20,7 @@ function creartarjetas(posts) {
 
     // Caratula
     const imagenCancion = document.createElement('img');
-    imagenCancion.classList.add('img-fluid' , 'caratulas');
+    imagenCancion.classList.add('img-fluid', 'caratulas');
     imagenCancion.src = posts.acf.caratula;
 
     // Titulo
