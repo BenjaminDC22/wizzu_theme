@@ -205,3 +205,8 @@ body{
     font-weight: 600;
     margin-left: 10px;
 }
+
+.pantalla-wizzu h2{
+    font-size: 30px;
+    font-weight: 700;
+}
