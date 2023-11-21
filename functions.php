@@ -116,7 +116,4 @@ function mi_js_personalizado(){
   wp_register_script('index', get_stylesheet_directory_uri().'/js/script.js', array('jquery'), '1.0.0', true);
   wp_enqueue_script('index');
 }
-
-
-
 ?>
