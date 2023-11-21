@@ -56,7 +56,7 @@ Template Name: Feed
         <!-- Lado derecho -->
         <div class="col-md-9">
             <div class="pantalla-wizzu">
-                <h2>Bienvenido de nuevo, Benjamín</h2>
+                <img class="w-100 banner-martin" src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner-martin.jpg">
             </div>
         </div>
     </div>
