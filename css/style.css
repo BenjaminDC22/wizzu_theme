@@ -226,13 +226,14 @@ body{
 .seccion-1 h3{
     font-size: 30px;
     font-weight: 600;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 45px;
+    margin-bottom: 25px;
 }
 
 .titulo-cancion{
     font-size: 18px;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .artista-cancion{
