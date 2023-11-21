@@ -44,6 +44,6 @@ function creartarjetas(post) {
     //tarjeta.appendChild(mp3);
     if (posts.categories[0] == 4)
     tarjetas.appendChild(tarjetaCancion);
-    console.log(categories)
+    console.log(post.categories[0])
 })
 }
