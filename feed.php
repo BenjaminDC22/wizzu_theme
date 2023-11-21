@@ -19,10 +19,6 @@ Template Name: Feed
                     <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home.png">
                     <h5 class="mb-0">Inicio</h5>
                 </button>
-                <button class="boton-wizzu w-100">
-                    <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/reloj.png">
-                    <h5 class="mb-0">Recientes</h5>
-                </button>
                 <button class="boton-wizzu w-100 mt-3">
                     <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/radio.png">
                     <h5 class="mb-0">Radio</h5>
@@ -30,9 +26,22 @@ Template Name: Feed
             </div>
 
             <div class="menu-wizzu">
-                <button class="boton-wizzu w-100 mt-3">
+                <h3>Tu biblioteca</h3>
+                <button class="boton-wizzu w-100">
+                    <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/reloj.png">
+                    <h5 class="mb-0">Recientes</h5>
+                </button>
+                <button class="boton-wizzu w-100">
                     <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/biblioteca.png">
-                    <h5 class="mb-0">Biblioteca</h5>
+                    <h5 class="mb-0">Playlists</h5>
+                </button>
+                <button class="boton-wizzu w-100">
+                    <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/melodia.png">
+                    <h5 class="mb-0">Canciones</h5>
+                </button>
+                <button class="boton-wizzu w-100">
+                    <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/microfono.png">
+                    <h5 class="mb-0">Artistas</h5>
                 </button>
             </div>
         </div>
