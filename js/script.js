@@ -18,7 +18,7 @@ function creartarjetas() {
 
     // Caratula
     const imagenTarjeta = document.createElement('img');
-    imagenTarjeta.classList.add('img-fluid' , 'col-md-10');
+    imagenTarjeta.classList.add('img-fluid' , 'caratulas');
     imagenTarjeta.src = posts.acf.caratula;
 
     // Titulo
