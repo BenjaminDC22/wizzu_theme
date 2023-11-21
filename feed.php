@@ -61,7 +61,9 @@ Template Name: Feed
                 <!-- Lo mas escuchado -->
                 <div class="seccion-1">
                     <h3>Lo más escuchado de la semana</h3>
-                    <div id="tarjetas"></div>
+                    <div id="tarjetas">
+                        
+                    </div>
                 </div>
             </div>
         </div>
