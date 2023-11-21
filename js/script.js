@@ -39,9 +39,9 @@ function creartarjetas() {
     mp3.src=posts.acf.audio;
     */
 
-    tarjeta.appendChild(imagenCancionb);
-    tarjeta.appendChild(tituloCancion);
-    tarjeta.appendChild(artistaCancion);
+    tarjetaCancion.appendChild(imagenCancion);
+    tarjetaCancion.appendChild(tituloCancion);
+    tarjetaCancion.appendChild(artistaCancion);
     //tarjeta.appendChild(mp3);
 
     tarjetas.appendChild(tarjetaCancion);
