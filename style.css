@@ -188,11 +188,7 @@ body{
     padding: 10px 15px;
     border: none;
     border-radius: 8px;
-}
-
-.boton-wizzu :hover{
-    background-color: rgb(203, 203, 203);
-    transition: 20ms;
+    background-color: #ffffff;
 }
 
 .boton-wizzu img{
