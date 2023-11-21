@@ -170,7 +170,7 @@ body{
 }
 
 
-
+/*<------------- PAGINA DE FEED ------------->*/
 .seccion-menu{
     margin: 50px;
 }
@@ -181,7 +181,6 @@ body{
     padding: 20px;
     background-color: rgb(241, 241, 241);
 }
-
 
 .boton-wizzu{
     display: flex;

@@ -10,7 +10,7 @@ Template Name: Feed
 <div class="container seccion-menu">
     <div class="row">
         <div class="col-md-3">
-            <div class="menu-wizzu">
+            <div class="menu-wizzu mb-3">
                 <button class="boton-wizzu w-100">
                     <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/search.png">
                     <h5 class="mb-0">Buscar</h5>
@@ -28,7 +28,16 @@ Template Name: Feed
                     <h5 class="mb-0">Radio</h5>
                 </button>
             </div>
+
+            <div class="menu-wizzu">
+                <button class="boton-wizzu w-100 mt-3">
+                    <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/biblioteca.png">
+                    <h5 class="mb-0">Biblioteca</h5>
+                </button>
+            </div>
         </div>
+
+
 
 
 
