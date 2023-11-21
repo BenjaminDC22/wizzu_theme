@@ -1,5 +1,6 @@
 let cancion = null;
 
+// Json de mi sitio
 fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_fields=id,acf&acf_format=standard')
 
 .then(response => response.json())
@@ -13,21 +14,23 @@ function creartarjetas() {
     console.log(posts);
 
     // Tarjeta
-    const tarjeta = document.createElement('div');
-    tarjeta.classList.add('col-md-3' , 'tarjeta-cancion');
+    const tarjetaCancion = document.createElement('div');
+    tarjetaCancion.classList.add('col-md-3' , 'tarjeta-cancion');
 
     // Caratula
-    const imagenTarjeta = document.createElement('img');
-    imagenTarjeta.classList.add('img-fluid' , 'caratulas');
-    imagenTarjeta.src = posts.acf.caratula;
+    const imagenCancion = document.createElement('img');
+    imagenCancion.classList.add('img-fluid' , 'caratulas');
+    imagenCancion.src = posts.acf.caratula;
 
     // Titulo
-    const tituloTarjeta= document.createElement('h5');
-    tituloTarjeta.innerHTML = posts.acf.titulo;
+    const tituloCancion= document.createElement('h5');
+    tituloCancion.classList.add('titulo-cancion');
+    tituloCancion.innerHTML = posts.acf.titulo;
 
     // Artista
-    const artistaTarjeta= document.createElement('h6');
-    artistaTarjeta.innerHTML=posts.acf.artista;
+    const artistaCancion= document.createElement('h6');
+    artistaCancion.classList.add('artista-cancion');
+    artistaCancion.innerHTML=posts.acf.artista;
 
     /* Audio
     const mp3 = document.createElement('audio');
@@ -36,12 +39,12 @@ function creartarjetas() {
     mp3.src=posts.acf.audio;
     */
 
-    tarjeta.appendChild(imagenTarjeta);
-    tarjeta.appendChild(tituloTarjeta);
-    tarjeta.appendChild(artistaTarjeta);
+    tarjeta.appendChild(imagenCancionb);
+    tarjeta.appendChild(tituloCancion);
+    tarjeta.appendChild(artistaCancion);
     //tarjeta.appendChild(mp3);
 
-    tarjetas.appendChild(tarjeta);
+    tarjetas.appendChild(tarjetaCancion);
 
 })
 }
