@@ -1,7 +1,7 @@
 <?php
 $post = $wp_query->post;
-if ( in_category('trabajos') ) {
-include(TEMPLATEPATH . '/single_trabajos.php'); } 
+if ( in_category('canciones') ) {
+include(TEMPLATEPATH . '/single_canciones.php'); } 
 elseif ( in_category('blog') ) {
 include(TEMPLATEPATH . '/single_blog.php'); }
 elseif ( in_category('descargas') ) {

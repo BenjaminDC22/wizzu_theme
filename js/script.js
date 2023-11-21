@@ -1,7 +1,7 @@
 let cancion = null;
 
 // Json de mi sitio
-fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_fields=id,acf&acf_format=standard')
+fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_fields=id,acf&acf_format=standard&per_page=100')
 
 .then(response => response.json())
 .then(data => {
