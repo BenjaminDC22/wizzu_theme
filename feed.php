@@ -13,7 +13,7 @@ Template Name: Feed
             <div class="menu-wizzu">
                 <button class="boton-wizzu w-100">
                     <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/search.png">
-                    <h5>Inicio</h5>
+                    <h5 class="mb-0">Buscar</h5>
                 </button>
             </div>
         </div>

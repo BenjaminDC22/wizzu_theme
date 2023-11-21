@@ -173,6 +173,9 @@ body{
 
 .boton-wizzu{
     display: flex;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
 }
 
 .boton-wizzu img{
