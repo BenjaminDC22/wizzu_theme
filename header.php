@@ -24,7 +24,7 @@
 <nav class="navbar navbar-expand-md bg-light">
     <div class="container">
     <a href="<?php echo home_url(); ?>">
-        <div class="logo mx-auto">
+        <div class="logo">
             <?php echo $custom_logo ?>
         </div>
     </a>
@@ -39,7 +39,7 @@
                 'container' => false,
                 'menu_class' => '',
                 'fallback_cb' => '__return_false',
-                'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
+                'items_wrap' => '<ul id="%1$s" class="navbar-nav mx-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
                 'depth' => 2,
                 'walker' => new bootstrap_5_wp_nav_menu_walker()
             ));
