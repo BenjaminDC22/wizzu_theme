@@ -21,7 +21,6 @@ function creartarjetas(posts) {
     // Caratula
     const imagenCancion = document.createElement('img');
     imagenCancion.classList.add('img-fluid' , 'caratulas');
-    imagenCancion.setAttribute('<?php the_permalink(); ?>')
     imagenCancion.src = posts.acf.caratula;
 
     // Titulo
