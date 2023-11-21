@@ -24,7 +24,7 @@ function creartarjetas() {
 
     // Titulo
     const tituloTarjeta= document.createElement('h5');
-    tituloTarjeta.innerHTML = posts.acf.nombre_cancion;
+    tituloTarjeta.innerHTML = posts.acf.titulo;
 
     // Artista
     const artistaTarjeta= document.createElement('h6');
