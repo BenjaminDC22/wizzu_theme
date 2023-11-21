@@ -8,8 +8,8 @@ fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_field
     data.map(post => {creartarjetas(post)})
 })
 let tarjetas = document.getElementById('dubstep');
-let tendencia = document.getElementById('tendencia')
-let semanal = document.getElementById('semanal')
+let tendencia = document.getElementById('tendencia');
+let semanal = document.getElementById('semanal');
 function creartarjetas(posts) {
     console.log(posts);
 
