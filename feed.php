@@ -57,6 +57,12 @@ Template Name: Feed
         <div class="col-md-9">
             <div class="pantalla-wizzu">
                 <img class="w-100 banner-martin" src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner-martin.jpg">
+
+                <!-- Lo mas escuchado -->
+                <div class="seccion-1">
+                    <h3>Lo más escuchado de la semana</h3>
+                    <div id="tarjetas"></div>
+                </div>
             </div>
         </div>
     </div>
