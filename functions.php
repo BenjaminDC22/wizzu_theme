@@ -108,7 +108,7 @@ register_nav_menu('main-menu', 'Main menu');
 
 
 
-/* Llamado al JS */
+/* Llamado al JAVA */
 
 add_action('wp_enqueue_scripts', 'mi_js_personalizado');
 
