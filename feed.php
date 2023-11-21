@@ -6,9 +6,11 @@ Template Name: Feed
 
 <?php get_header(); ?>
 
-<!-- INTERFAZ COMPLETA -->
+<!-- INTERFAZ -->
 <div class="container seccion-menu">
     <div class="row">
+
+        <!-- Lado izquierdo -->
         <div class="col-md-3">
             <!-- Menú principal -->
             <div class="menu-wizzu mb-3">
@@ -25,7 +27,6 @@ Template Name: Feed
                     <h5 class="mb-0">Radio</h5>
                 </button>
             </div>
-
             <!-- Menú de biblioteca -->
             <div class="menu-wizzu">
                 <h3 class="mb-3">Tu biblioteca</h3>
@@ -52,13 +53,10 @@ Template Name: Feed
             </div>
         </div>
 
-
-
-
-
+        <!-- Lado derecho -->
         <div class="col-md-10">
             <div class="pantalla-wizzu">
-
+                <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner-feed">
             </div>
         </div>
     </div>
