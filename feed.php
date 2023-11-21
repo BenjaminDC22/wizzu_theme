@@ -65,6 +65,12 @@ Template Name: Feed
 
                     </div>
                 </div>
+                <div class="seccion-1">
+                    <h3>Tendencia</h3>
+                    <div id="tendencia" class="row">
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
