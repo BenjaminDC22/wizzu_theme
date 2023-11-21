@@ -9,16 +9,10 @@ register_nav_menus(array('menu' => __('menu')));
 register_nav_menus(array('menu-footer' => __('menu-footer')));
 
 // CSS
-    function mi_css_personalizado(){
-        wp_enqueue_style('style', get_template_directory_uri().'/css/style.css', array(), '1.0.0');
-    }
-    add_action('wp_enqueue_scripts', 'mi_css_personalizado');
-
-// Benjita jquery
-function load_jquerys() {
-  wp_enqueue_script('jquerys',  get_stylesheet_directory_uri().'/js/jquery-3.7.0.min.js', array(), '3.7.0', true);
+function mi_css_personalizado(){
+    wp_enqueue_style('style', get_template_directory_uri().'/css/style.css', array(), '1.0.0');
 }
-add_action('wp_enqueue_scripts', 'load_jquerys');
+add_action('wp_enqueue_scripts', 'mi_css_personalizado');
 
 add_theme_support( 'custom-logo', array(
 	'height'      => 300,
