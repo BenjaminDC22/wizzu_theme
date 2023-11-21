@@ -44,6 +44,6 @@ function creartarjetas(posts, id, categories) {
     //tarjeta.appendChild(mp3);
     if (categories == 4)
     tarjetas.appendChild(tarjetaCancion);
-
+    console.log(categories)
 })
 }
