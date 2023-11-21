@@ -60,14 +60,14 @@ Template Name: Feed
 
                 <!-- Lo mas escuchado -->
                 <div class="seccion-1">
-                    <h3>Dubstep</h3>
-                    <div id="dubstep" class="row">
+                    <h3>Escuchado recientemente</h3>
+                    <div id="tendencia" class="row">
 
                     </div>
                 </div>
                 <div class="seccion-1">
-                    <h3>Tendencia</h3>
-                    <div id="tendencia" class="row">
+                    <h3>Lo último de BossFight</h3>
+                    <div id="dubstep" class="row">
 
                     </div>
                 </div>
