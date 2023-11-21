@@ -7,7 +7,7 @@ Template Name: Feed
 <?php get_header(); ?>
 
 <!-- INTERFAZ COMPLETA -->
-<div class="container seccion-margen">
+<div class="container seccion-menu">
     <div class="row">
         <div class="col-md-2">
             <div class="menu-wizzu">
