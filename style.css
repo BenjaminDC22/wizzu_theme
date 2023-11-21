@@ -171,6 +171,16 @@ body{
 
 
 
+
+
+.menu-wizzu{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+
 .boton-wizzu{
     display: flex;
     padding: 10px 15px;
