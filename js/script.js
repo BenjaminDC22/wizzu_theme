@@ -33,17 +33,16 @@ function creartarjetas(posts) {
     artistaCancion.classList.add('artista-cancion');
     artistaCancion.innerHTML=posts.acf.artista;
 
-    /* Audio
+    //Audio
     const mp3 = document.createElement('audio');
     mp3.classList.add('col-md-12');
     mp3.controls=true;
     mp3.src=posts.acf.audio;
-    */
 
     tarjetaCancion.appendChild(imagenCancion);
     tarjetaCancion.appendChild(tituloCancion);
     tarjetaCancion.appendChild(artistaCancion);
-    //tarjeta.appendChild(mp3);
+    tarjetaCancion.appendChild(mp3);
     if (posts.categories[0] == 4){
         tarjetas.appendChild(tarjetaCancion);
     }
