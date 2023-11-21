@@ -73,7 +73,7 @@ Template Name: Feed
                 </div>
                 <div class="seccion-1">
                     <h3>Lanzamientos de esta semana</h3>
-                    <div id="semana" class="row">
+                    <div id="semanal" class="row">
 
                     </div>
                 </div>
