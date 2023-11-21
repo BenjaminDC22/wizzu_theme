@@ -9,7 +9,7 @@ fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_field
 })
 let tarjetas = document.getElementById('dubstep');
 function creartarjetas(posts, id, categories) {
-    cancion.forEach(posts => {
+    cancion.forEach((posts, id, categories) => {
     console.log(posts);
 
     // Tarjeta
