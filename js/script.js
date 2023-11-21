@@ -1,15 +1,14 @@
 let cancion = null;
 
 // Json de mi sitio
-fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_fields=id,acf&acf_format=standard')
+fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_fields=id,categories,acf&acf_format=standard')
 
 .then(response => response.json())
 .then(data => {
-    cancion = data.filter(posts => posts.acf.categoria === "song");
-    creartarjetas();
+    creartarjetas(data.acf, data.id, data.categories);
 })
-let tarjetas = document.getElementById('tarjetas');
-function creartarjetas() {
+let tarjetas = document.getElementById('dubstep');
+function creartarjetas(posts, id, categories) {
     cancion.forEach(posts => {
     console.log(posts);
 
@@ -43,7 +42,7 @@ function creartarjetas() {
     tarjetaCancion.appendChild(tituloCancion);
     tarjetaCancion.appendChild(artistaCancion);
     //tarjeta.appendChild(mp3);
-
+    if (categories == 4)
     tarjetas.appendChild(tarjetaCancion);
 
 })

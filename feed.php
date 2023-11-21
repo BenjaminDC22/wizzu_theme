@@ -60,8 +60,8 @@ Template Name: Feed
 
                 <!-- Lo mas escuchado -->
                 <div class="seccion-1">
-                    <h3>Lo más escuchado de la semana</h3>
-                    <div id="tarjetas" class="row">
+                    <h3>Dubstep</h3>
+                    <div id="dubstep" class="row">
 
                     </div>
                 </div>
