@@ -10,6 +10,7 @@ fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_field
 let tarjetas = document.getElementById('dubstep');
 let tendencia = document.getElementById('tendencia');
 let semanal = document.getElementById('semanal');
+let volver = document.getElementById('volver');
 function creartarjetas(posts) {
     console.log(posts);
 
@@ -51,6 +52,9 @@ function creartarjetas(posts) {
     }
     if (posts.categories[0] == 5){
         semanal.appendChild(tarjetaCancion);
+    }
+    if (posts.categories[0] == 6){
+        volver.appendChild(tarjetaCancion);
     }
     console.log(posts.categories[0])
 }
