@@ -44,5 +44,4 @@ function creartarjetas(posts) {
     if (posts.categories[0] == 4)
     tarjetas.appendChild(tarjetaCancion);
     console.log(post.categories[0])
-})
 }
