@@ -179,6 +179,7 @@ body{
     border: none;
     border-radius: 5px;
     padding: 10px;
+    background-color: rgb(241, 241, 241);
 }
 
 
@@ -187,7 +188,8 @@ body{
     padding: 10px 15px;
     border: none;
     border-radius: 8px;
-    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    background-color: rgb(179, 179, 179);
+
 }
 
 .boton-wizzu img{
