@@ -10,7 +10,7 @@ register_nav_menus(array('menu-footer' => __('menu-footer')));
 
 // CSS
     function mi_css_personalizado(){
-        wp_enqueue_style('style', get_template_directory_uri().'/style.css', array(), '1.0.0');
+        wp_enqueue_style('style', get_template_directory_uri().'/css/style.css', array(), '1.0.0');
     }
     add_action('wp_enqueue_scripts', 'mi_css_personalizado');
 
