@@ -9,18 +9,18 @@ Template Name: Feed
 <!-- INTERFAZ COMPLETA -->
 <div class="container">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-2">
             <div class="menu-wizzu">
-                <button class="boton-wizzu">
+                <button class="boton-wizzu w-100">
                     <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/search.png">
-                    Hola
+                    <h5>Inicio</h5>
                 </button>
             </div>
         </div>
 
 
 
-        <div class="col-md-8">
+        <div class="col-md-10">
             <div class="pantalla-wizzu">
 
             </div>

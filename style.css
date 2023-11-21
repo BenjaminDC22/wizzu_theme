@@ -178,3 +178,9 @@ body{
 .boton-wizzu img{
     width: 20px;
 }
+
+.boton-wizzu h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
