@@ -5,11 +5,10 @@ fetch('https://benabarcas.laboratoriodiseno2.cl/wizzu/wp-json/wp/v2/posts?_field
 
 .then(response => response.json())
 .then(data => {
-    creartarjetas(data);
+    data.map(post => creartarjetas(post))
 })
 let tarjetas = document.getElementById('dubstep');
-function creartarjetas(post) {
-    post.forEach(posts => {
+function creartarjetas(posts) {
     console.log(posts);
 
     // Tarjeta
