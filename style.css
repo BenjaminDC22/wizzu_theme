@@ -175,7 +175,7 @@ body{
     margin: 50px;
 }
 
-.menu-wizzu, .pantalla-wizzu{
+.menu-wizzu, .pantalla-wizzu .busqueda{
     border: none;
     border-radius: 5px;
     padding: 20px;

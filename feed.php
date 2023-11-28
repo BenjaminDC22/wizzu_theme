@@ -9,16 +9,18 @@ Template Name: Feed
 <!-- INTERFAZ -->
 <div class="container mx-auto seccion-menu">
     <div class="row">
-        <button class="boton-wizzu w-100">
-            <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/search.png">
-            <h5 class="mb-0">Buscar</h5>
-        </button>
+        <div class="busqueda">
+            <button class="boton-wizzu w-100">
+                <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/search.png">
+                <h5 class="mb-0">Buscar</h5>
+            </button>
+        </div>
+        
         <!-- Lado izquierdo -->
         <div class="col-md-3">
             <!-- Menú principal -->
             <div class="menu-wizzu mb-3">
-                
-                <button class="boton-wizzu w-100 my-3">
+                <button class="boton-wizzu w-100">
                     <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home.png">
                     <h5 class="mb-0">Inicio</h5>
                 </button>
