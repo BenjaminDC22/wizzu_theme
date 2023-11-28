@@ -11,13 +11,22 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: 0;
-    font-family: 'Gotham';
 }
 
 .logo img{
     width: 60px;
     height: 60px;
     margin-right: 30px;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url(fuentes/Gotham-Bold.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url(fuentes/GothamMedium.ttf);
+    font-weight: 500;
 }
 
 /*<------------- PAGINA DE INICIO ------------->*/
@@ -242,10 +251,4 @@ body{
 }
 .busqueda .boton-wizzu{
     border-radius: 50px;
-}
-.caratula-biblioteca{
-    width: 100px;
-}
-.fila-biblioteca{
-    display: flex;
 }
