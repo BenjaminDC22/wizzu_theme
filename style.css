@@ -24,7 +24,7 @@ body{
 .banner{
     content: '';
     height: 80vh;
-    background-image: url(../img/banner.jpg);
+    background-image: url(img/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
