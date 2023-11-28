@@ -246,3 +246,6 @@ body{
 .caratula-biblioteca{
     width: 100px;
 }
+.fila-biblioteca{
+    display: flex;
+}

@@ -48,6 +48,10 @@ Template Name: Canción
         const tarjetaCancion = document.createElement('div');
         tarjetaCancion.classList.add('col-md-12' , 'tarjeta-cancion');
 
+        // Row
+        const filaCancion = document.createElement('div');
+        tarjetaCancion.classList.add('fila-biblioteca' , 'tarjeta-cancion');
+
         // Caratula
         const imagenCancion = document.createElement('img');
         imagenCancion.classList.add('caratula-biblioteca' , 'caratulas');
