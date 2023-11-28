@@ -46,35 +46,32 @@ Template Name: Canción
 
         // Tarjeta
         const tarjetaCancion = document.createElement('div');
-        tarjetaCancion.classList.add('col-md-12' , 'tarjeta-cancion');
-
-        // Row
-        const filaCancion = document.createElement('div');
-        filaCancion.classList.add('fila-biblioteca' , 'tarjeta-cancion');
+        tarjetaCancion.classList.add('row' , 'tarjeta-cancion');
 
         // Caratula
         const imagenCancion = document.createElement('img');
-        imagenCancion.classList.add('caratula-biblioteca' , 'caratulas');
+        imagenCancion.classList.add('img-fluid' , 'col-md-2');
         imagenCancion.src = posts.acf.caratula;
 
         // Titulo
         const tituloCancion= document.createElement('h5');
-        tituloCancion.classList.add('titulo-cancion');
+        tituloCancion.classList.add('titulo-cancion, col-md-4');
         tituloCancion.innerHTML = posts.acf.titulo;
 
         // Artista
         const artistaCancion= document.createElement('h6');
-        artistaCancion.classList.add('artista-cancion');
+        artistaCancion.classList.add('artista-cancion, col-md-4');
         artistaCancion.innerHTML=posts.acf.artista;
 
         //Audio
         const mp3 = document.createElement('audio');
-        mp3.classList.add('col-md-6');
+        mp3.classList.add('col-md-2');
         mp3.controls=true;
         mp3.src=posts.acf.audio;
 
-        filaCancion.appendChild(tituloCancion);
+
         tarjetaCancion.appendChild(imagenCancion);
+        tarjetaCancion.appendChild(tituloCancion);
         tarjetaCancion.appendChild(artistaCancion);
         tarjetaCancion.appendChild(mp3);
         if (posts.categories[0] == 3){
