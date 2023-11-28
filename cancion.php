@@ -46,7 +46,7 @@ Template Name: Canción
 
         // Tarjeta
         const tarjetaCancion = document.createElement('div');
-        tarjetaCancion.classList.add('col-md-3' , 'tarjeta-cancion');
+        tarjetaCancion.classList.add('col-md-12' , 'tarjeta-cancion');
 
         // Caratula
         const imagenCancion = document.createElement('img');
