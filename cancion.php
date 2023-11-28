@@ -10,11 +10,10 @@ Template Name: Canción
 <div class="main">
     <div class="container mx-auto">
         <div class="row">
-            <div class="col-md-4">
+            <div class="seccion-1">
+                <div id="tendencia" class="row">
 
-            </div>
-            <div class="col-md-8">
-                
+                </div>
             </div>
         </div>
     </div>
