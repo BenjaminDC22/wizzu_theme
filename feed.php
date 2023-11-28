@@ -7,7 +7,7 @@ Template Name: Feed
 <?php get_header(); ?>
 
 <!-- INTERFAZ -->
-<div class="container seccion-menu">
+<div class="container mx-auto seccion-menu">
     <div class="row">
 
         <!-- Lado izquierdo -->
