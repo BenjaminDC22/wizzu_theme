@@ -129,7 +129,7 @@ Template Name: Feed
 
         //Audio
         const mp3 = document.createElement('audio');
-        mp3.classList.add('col-md-12');
+        mp3.classList.add('col-md-12', 'reproductor');
         mp3.controls=true;
         mp3.src=posts.acf.audio;
 
