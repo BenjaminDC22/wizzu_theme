@@ -75,7 +75,6 @@ Template Name: Canción
 
         filaCancion.appendChild(tituloCancion);
         tarjetaCancion.appendChild(imagenCancion);
-        tarjetaCancion.appendChild(tituloCancion);
         tarjetaCancion.appendChild(artistaCancion);
         tarjetaCancion.appendChild(mp3);
         if (posts.categories[0] == 3){
