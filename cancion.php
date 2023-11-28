@@ -11,7 +11,7 @@ Template Name: Canción
     <div class="container mx-auto">
 
             <div class="seccion-1">
-                <div id="tendencia" class="row">
+                <div id="exito" class="row">
 
                 </div>
             </div>
