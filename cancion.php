@@ -50,7 +50,7 @@ Template Name: Canción
 
         // Row
         const filaCancion = document.createElement('div');
-        tarjetaCancion.classList.add('fila-biblioteca' , 'tarjeta-cancion');
+        filaCancion.classList.add('fila-biblioteca' , 'tarjeta-cancion');
 
         // Caratula
         const imagenCancion = document.createElement('img');
