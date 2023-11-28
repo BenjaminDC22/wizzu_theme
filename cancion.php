@@ -50,7 +50,7 @@ Template Name: Canción
 
         // Caratula
         const imagenCancion = document.createElement('img');
-        imagenCancion.classList.add('img-fluid');
+        imagenCancion.classList.add('img-fluid', 'col-md-2');
         imagenCancion.src = posts.acf.caratula;
 
         // Titulo
