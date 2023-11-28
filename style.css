@@ -215,6 +215,7 @@ body{
 }
 
 .boton-wizzu h5{
+    font-family: 'Gotham';
     font-size: 18px;
     font-weight: 600;
     margin-left: 10px;
@@ -259,9 +260,4 @@ body{
 }
 .busqueda .boton-wizzu{
     border-radius: 50px;
-}
-.reproductor{
-    background-color: aqua;
-    color: aqua;
-    margin: 1px;
 }
