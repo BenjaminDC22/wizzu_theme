@@ -12,7 +12,10 @@ Template Name: Inicio
         <div class="col info-banner">
             <h1 class="m-0">Dejate llevar por la <br> potencia de <br> la música</h1>
             <h3>Disfruta de la música compartida en tiempo real.</h3>
-            <button src="https://ismarevalo.laboratoriodiseno2.cl/famous-friends/" type="button" class="btn btn-light">Escuchar ahora</button>
+            <a href="https://benabarcas.laboratoriodiseno2.cl/wizzu/feed-2/">
+                <button type="button" class="btn btn-light">Escuchar ahora</button>
+            </a>
+            
         </div>
     </div>
 </div>
