@@ -55,12 +55,12 @@ Template Name: Canción
 
         // Titulo
         const tituloCancion= document.createElement('h5');
-        tituloCancion.classList.add('titulo-cancion');
+        tituloCancion.classList.add('titulo-cancion', 'col-md-4');
         tituloCancion.innerHTML = posts.acf.titulo;
 
         // Artista
         const artistaCancion= document.createElement('h6');
-        artistaCancion.classList.add('artista-cancion');
+        artistaCancion.classList.add('artista-cancion', 'col-md-4');
         artistaCancion.innerHTML=posts.acf.artista;
 
         //Audio
