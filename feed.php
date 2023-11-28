@@ -8,7 +8,7 @@ Template Name: Feed
 
 <!-- INTERFAZ -->
 <div class="container mx-auto seccion-menu">
-    <div class="col">
+    <div class="col-12">
         <div class="busqueda mb-5">
             <button class="boton-wizzu w-100">
                 <img class="iconos" src="<?php echo get_stylesheet_directory_uri(); ?>/img/search.png">
