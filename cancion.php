@@ -50,17 +50,17 @@ Template Name: Canción
 
         // Caratula
         const imagenCancion = document.createElement('img');
-        imagenCancion.classList.add('img-fluid' , 'col-md-2');
+        imagenCancion.classList.add('img-fluid');
         imagenCancion.src = posts.acf.caratula;
 
         // Titulo
         const tituloCancion= document.createElement('h5');
-        tituloCancion.classList.add('titulo-cancion, col-md-4');
+        tituloCancion.classList.add('titulo-cancion');
         tituloCancion.innerHTML = posts.acf.titulo;
 
         // Artista
         const artistaCancion= document.createElement('h6');
-        artistaCancion.classList.add('artista-cancion, col-md-4');
+        artistaCancion.classList.add('artista-cancion');
         artistaCancion.innerHTML=posts.acf.artista;
 
         //Audio
