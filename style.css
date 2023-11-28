@@ -254,7 +254,8 @@ body{
 .artista-cancion{
     font-family: 'Gotham';
     font-size: 16px;
-    font-weight: 400;
+    color: #373737;
+    font-weight: 600;
 }
 .busqueda .boton-wizzu{
     border-radius: 50px;
