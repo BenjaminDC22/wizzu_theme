@@ -9,13 +9,13 @@ Template Name: Canción
 <!-- INTERFAZ DE CANCIÓNES -->
 <div class="main">
     <div class="container mx-auto">
-        <div class="row">
+
             <div class="seccion-1">
                 <div id="tendencia" class="row">
 
                 </div>
             </div>
-        </div>
+
     </div>
 </div>
 
