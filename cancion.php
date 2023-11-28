@@ -73,7 +73,7 @@ Template Name: Canción
         mp3.controls=true;
         mp3.src=posts.acf.audio;
 
-        tarjetaCancion.appendChild(filaCancion);
+        filaCancion.appendChild(tituloCancion);
         tarjetaCancion.appendChild(imagenCancion);
         tarjetaCancion.appendChild(tituloCancion);
         tarjetaCancion.appendChild(artistaCancion);
