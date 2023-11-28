@@ -28,6 +28,11 @@ body{
     src: url(fuentes/GothamMedium.ttf);
     font-weight: 500;
 }
+@font-face {
+    font-family: 'Gotham';
+    src: url(fuentes/Gotham-Thin.otf);
+    font-weight: 400;
+}
 
 /*<------------- PAGINA DE INICIO ------------->*/
 .banner{
